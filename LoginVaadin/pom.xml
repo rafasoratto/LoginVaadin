@@ -176,13 +176,6 @@
                     <scanIntervalSeconds>2</scanIntervalSeconds>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <configuration>
-                    <outputDirectory>/home/rafael/Programas/WildFly/wildfly-9.0.2.Final/standalone/deployments</outputDirectory>
-                </configuration>
-            </plugin>
         </plugins>
 
         <pluginManagement>
